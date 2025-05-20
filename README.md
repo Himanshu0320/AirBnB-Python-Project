@@ -67,7 +67,7 @@ The dataset contains 20,765 entries and 22 features, including:
   •Identified Entire home/apt as the most common room type 
 
 
-Neighborhood group insights:
+2. Neighborhood group insights:
 
 Analyzed price variations by boroughs.
 Manhattan had the highest average prices.
@@ -84,32 +84,42 @@ Analyzed hosts with multiple listings using boxplots to identify key contributor
 Review behavior:
 
 Used pair plots to show relationships between number of reviews, price, and availability.
+
 3. Data Visualization
+
 Pairplot: To see correlations among price, availability, and number of reviews.
+
 Heatmap: Showing correlations among numerical features.
+
 Histograms and Boxplots: To detect outliers in price.
+
 Bar Charts: Displaying room types and neighborhood group distributions.
 
 
-#Key Findings and Insights
+<h2>Key Findings and Insights</h2>
 Price Trends:
 
 Manhattan has the most expensive listings, followed by Brooklyn.
 Entire homes/apartments cost significantly more than private or shared rooms.
+
 Room Type Distribution:
 
 Entire homes/apartments are the most common, but private rooms offer budget-friendly options.
-Outliers in Price:
 
-Few listings priced at $10,000+ were detected, indicating the need to filter such extreme values.
-Availability Patterns:
+  Outliers in Price:
 
-Listings with high availability tend to have lower prices and more reviews, likely due to better guest experience.
-Host Behavior:
+   Few listings priced at $10,000+ were detected, indicating the need to filter such extreme values.
 
-Some hosts manage multiple listings, indicating a trend toward professional hosting.
+   Availability Patterns:
+
+   Listings with high availability tend to have lower prices and more reviews, likely due to better guest experience.
+
+   Host Behavior:
+
+   Some hosts manage multiple listings, indicating a trend toward professional hosting.
 
 
-#Conclusion
+
+## Conclusion
 This project offers valuable insights into the New York Airbnb market, helping both guests and hosts make informed decisions. By using EDA techniques, we identified key trends and developed actionable recommendations. Future improvements can involve advanced analytics and predictive modeling to further enhance the findings.
 
