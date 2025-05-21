@@ -85,38 +85,50 @@ Review behavior:
 
 Used pair plots to show relationships between number of reviews, price, and availability.
 
-3. Data Visualization
+<h3>3. Data Visualization</h3>
 
-Pairplot: To see correlations among price, availability, and number of reviews.
+•	Pairplot: To see correlations among price, availability, and number of reviews.
 
-Heatmap: Showing correlations among numerical features.
+•	Heatmap: Showing correlations among numerical features.
 
-Histograms and Boxplots: To detect outliers in price.
+•	Histograms and Boxplots: To detect outliers in price.
 
-Bar Charts: Displaying room types and neighborhood group distributions.
+•	Bar Charts: Displaying room types and neighborhood group distributions.
+
+
 
 
 <h2>Key Findings and Insights</h2>
-Price Trends:
 
-Manhattan has the most expensive listings, followed by Brooklyn.
-Entire homes/apartments cost significantly more than private or shared rooms.
+   
 
-Room Type Distribution:
 
-Entire homes/apartments are the most common, but private rooms offer budget-friendly options.
 
-  Outliers in Price:
 
-   Few listings priced at $10,000+ were detected, indicating the need to filter such extreme values.
 
-   Availability Patterns:
+   1.	Price Trends:
+      
+		o	Manhattan has the most expensive listings, followed by Brooklyn.
 
-   Listings with high availability tend to have lower prices and more reviews, likely due to better guest experience.
+		o	Entire homes/apartments cost significantly more than private or shared rooms.
 
-   Host Behavior:
+2.	Room Type Distribution:
+	
+	o	Entire homes/apartments are the most common, but private rooms offer budget-friendly options.
 
-   Some hosts manage multiple listings, indicating a trend toward professional hosting.
+3.	Outliers in Price:
+	
+	o	Few listings priced at $10,000+ were detected, indicating the need to filter such extreme values.
+
+4.	Availability Patterns:
+	
+	   o	   Listings with high availability tend to have lower prices and more reviews, likely due to better guest experience.
+
+5.	Host Behavior:
+	
+	o	Some hosts manage multiple listings, indicating a trend toward professional hosting.
+
+
 
 
 
