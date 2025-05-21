@@ -56,34 +56,56 @@ The dataset contains 20,765 entries and 22 features, including:
 
 •	Remove outliers: Listings with prices > $1,000 were capped to avoid skewed visualizations.
 
-<h3>2. EDA (Exploratory Data Analysis)</h3>
+
+
+<h3>2. 	EDA (Exploratory Data Analysis)</h3>
 
 
 
-  1.Room type distribution:
+  <h4>1.	Room type distribution:</h4>
 
   •	Visualized the count of each room type using bar plots.
       
-  •Identified Entire home/apt as the most common room type 
+  •	Identified Entire home/apt as the most common room type 
 
 
-2. Neighborhood group insights:
+<h4>2. Neighborhood group insights:</h4>
 
-Analyzed price variations by boroughs.
-Manhattan had the highest average prices.
-Availability trends:
 
-Used heatmaps to show correlations among price, availability_365, number_of_reviews, and beds.
-Price distribution:
+1.	Room type distribution:
+	
+	o	Visualized the count of each room type using bar plots.
 
-Used histograms to show the distribution of prices.
-Majority of the listings were priced between $50 - $300.
-Host listings:
+	o	Identified Entire home/apt as the most common room type.
 
-Analyzed hosts with multiple listings using boxplots to identify key contributors.
-Review behavior:
 
-Used pair plots to show relationships between number of reviews, price, and availability.
+
+
+4.	Neighborhood group insights:
+	
+	o	Analyzed price variations by boroughs.
+
+	o	Manhattan had the highest average prices.
+
+7.	Availability trends:
+	
+	o	Used heatmaps to show correlations among price, availability_365, number_of_reviews, and beds.
+
+10.	Price distribution:
+	
+	o	Used histograms to show the distribution of prices.
+
+	o	Majority of the listings were priced between $50 - $300.
+
+13.	Host listings:
+	
+	o	Analyzed hosts with multiple listings using boxplots to identify key contributors.
+
+16.	Review behavior:
+	
+	o	Used pair plots to show relationships between number of reviews, price, and availability.
+
+
 
 <h3>3. Data Visualization</h3>
 
